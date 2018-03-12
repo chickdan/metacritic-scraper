@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetacriticScraper", "MetacriticScraper\MetacriticScraper.csproj", "{98B43C05-C841-436A-A37D-DEA0C676CCB3}"
 EndProject
@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetacriticScraper.Tests", "
 	ProjectSection(ProjectDependencies) = postProject
 		{98B43C05-C841-436A-A37D-DEA0C676CCB3} = {98B43C05-C841-436A-A37D-DEA0C676CCB3}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetacriticScraperCore", "MetacriticScraperCore\MetacriticScraperCore.csproj", "{587DD049-02D5-4920-8B92-75073BA88FDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,8 +36,19 @@ Global
 		{F3C6C606-F7FC-4FD7-9DC9-040E577E4BCC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3C6C606-F7FC-4FD7-9DC9-040E577E4BCC}.Release|x86.ActiveCfg = Release|Any CPU
 		{F3C6C606-F7FC-4FD7-9DC9-040E577E4BCC}.Release|x86.Build.0 = Release|Any CPU
+		{587DD049-02D5-4920-8B92-75073BA88FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587DD049-02D5-4920-8B92-75073BA88FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587DD049-02D5-4920-8B92-75073BA88FDE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{587DD049-02D5-4920-8B92-75073BA88FDE}.Debug|x86.Build.0 = Debug|Any CPU
+		{587DD049-02D5-4920-8B92-75073BA88FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587DD049-02D5-4920-8B92-75073BA88FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587DD049-02D5-4920-8B92-75073BA88FDE}.Release|x86.ActiveCfg = Release|Any CPU
+		{587DD049-02D5-4920-8B92-75073BA88FDE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F7D4B40-2C08-4224-B6B5-9A798A9AA88E}
 	EndGlobalSection
 EndGlobal
